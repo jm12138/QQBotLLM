@@ -9,6 +9,9 @@ from botpy.message import Message
 from botpy.types.message import Reference
 
 
+__all__ = ['LLMChatClient']
+
+
 class LLMChatClient(Client):
     def __init__(
         self: 'LLMChatClient',
